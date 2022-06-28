@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@300&display=swap');
+
+:root {
+  --primary-font : 'Inter', sans-serif;
+  --secondary-font : 'Lato', sans-serif;
+  --primary-dark-font-color : rgba(0, 0, 0, 1) ;
+  --secondary-light-font-color : #FFFFFF;
+  --main-color : rgba(42, 168, 195, 1);
+  --wide-huge-weight : 800 ;
+  --medium-weight : 700 ;
+  --shadow-color : rgba(42, 168, 195, 0.35) ;
+}
+
+/* @font-face {
+  font-family: ;
+  src: url(./);
+} */
