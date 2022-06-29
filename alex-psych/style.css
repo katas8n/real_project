@@ -1,17 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@300&display=swap");
 
 :root {
-  --primary-font : 'Inter', sans-serif;
-  --secondary-font : 'Lato', sans-serif;
-  --primary-dark-font-color : rgba(0, 0, 0, 1) ;
-  --secondary-light-font-color : #FFFFFF;
-  --main-color : rgba(42, 168, 195, 1);
-  --wide-huge-weight : 800 ;
-  --medium-weight : 700 ;
-  --shadow-color : rgba(42, 168, 195, 0.35) ;
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Lato", sans-serif;
+  --primary-dark-font-color: rgba(0, 0, 0, 1);
+  --secondary-light-font-color: #ffffff;
+  --main-color: rgba(42, 168, 195, 1);
+  --wide-huge-weight: 800;
+  --medium-weight: 700;
+  --shadow-color: rgba(42, 168, 195, 0.35);
 }
 
 /* @font-face {
   font-family: ;
   src: url(./);
 } */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  position: absolute;
+  width: 146px;
+  height: 55px;
+  left: 228px;
+  top: 54px;
+}
+
+.header__first-pt {
+  width: 146px;
+  height: 38px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.12em;
+  color: var(--primary-dark-font-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header__second-pt {
+  width: 143px;
+  height: 12px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: var(--primary-dark-font-color);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.nav-items {
+  position: absolute;
+  width: 1365px;
+  height: 32px;
+  left: 226px;
+  top: 66px;
+}
+
+.nav-ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 624px;
+  height: 27px;
+  left: 194px;
+  top: 5px;
+}
+
+.nav-li {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--primary-dark-font-color);
+}
+
+.phone-number {
+  position: absolute;
+  width: 219px;
+  height: 32px;
+  left: 929px;
+  top: 0px;
+}
+
+/* .phone-number__icon {
+  position: absolute;
+width: 17px;
+height: 19px;
+left: 53px;
+top: 6px;
+} */
+
+.phone-icon {
+  position: absolute;
+  width: 12.08px;
+  height: 14px;
+  left: 53.52px;
+  top: 8px;
+}
+
+.phone-number__number {
+  position: absolute;
+  width: 145px;
+  height: 22px;
+  left: 74px;
+  top: 3px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  color: var(--primary-dark-font-color);
+}
