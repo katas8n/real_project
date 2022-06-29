@@ -254,3 +254,46 @@ top: 66px;
   color: rgb(170, 167, 167);
   border-bottom: 1px solid rgb(196, 196, 196);
 }
+
+.experience-wrpapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 99px;
+  position: absolute;
+  width: 1140px;
+  height: 151px;
+  left: 228px;
+  top: 992px;
+}
+
+.experience-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 213px;
+  height: 87px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: var(--primary-dark-font-color);
+}
+
+.experience-block h2 {
+  display: inline;
+  width: 156px;
+  height: 58px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: var(--main-color);
+}
