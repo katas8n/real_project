@@ -133,3 +133,40 @@ top: 6px;
   letter-spacing: -0.03em;
   color: var(--primary-dark-font-color);
 }
+
+/* .first-consultation__photo {
+  position: absolute;
+width: 657px;
+height: 744px;
+left: 945px;
+top: 66px;
+
+} */
+
+.first-consultation {
+  position: absolute;
+width: 657px;
+height: 744px;
+left: 945px;
+top: 66px;
+}
+
+.consultation-alex__photo {
+  width: 657px;
+  height: 744px;
+}
+
+.first-consultation__name {
+  position: absolute;
+  width: 342px;
+  height: 49px;
+  left: 87px;
+  top: 570px;
+font-family: var(--primary-font);
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+color: var(--secondary-light-font-color);
+}
