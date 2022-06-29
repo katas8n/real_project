@@ -145,10 +145,10 @@ top: 66px;
 
 .first-consultation {
   position: absolute;
-width: 657px;
-height: 744px;
-left: 945px;
-top: 66px;
+  width: 657px;
+  height: 744px;
+  left: 945px;
+  top: 66px;
 }
 
 .consultation-alex__photo {
@@ -162,11 +162,95 @@ top: 66px;
   height: 49px;
   left: 87px;
   top: 570px;
-font-family: var(--primary-font);
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 24px;
-text-align: right;
-color: var(--secondary-light-font-color);
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: var(--secondary-light-font-color);
+}
+
+.first-consultation__block {
+  position: absolute;
+  width: 603px;
+  height: 404px;
+  left: 228px;
+  top: 177px;
+  background: var(--secondary-light-font-color);
+  box-shadow: 0px 4px 25px rgba(42, 168, 196, 0.35);
+  border-radius: 10px;
+}
+
+.first-consultation-title {
+  position: absolute;
+  width: 563px;
+  height: 80px;
+  left: 22px;
+  top: 41px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-dark-font-color);
+}
+
+.first-consultation__price {
+  position: absolute;
+  width: 771px;
+  height: 71px;
+  left: 160px;
+  top: 319px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-color);
+  text-shadow: 2px 9px 9px #d9d9d9;
+}
+
+.first-consultation__price h1 {
+  display: inline;
+}
+
+.input-wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 461px;
+  height: 141px;
+  left: 56px;
+  top: 219px;
+  background: var(--secondary-light-font-color);
+  border-radius: 20px;
+}
+
+.input-name {
+  position: absolute;
+  width: 418px;
+  height: 45px;
+  top: 20px;
+  border: none;
+  font-family: var(--primary-font);
+  color: rgb(170, 167, 167);
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.input-tel {
+  position: absolute;
+  width: 418px;
+  height: 45px;
+  top: 80px;
+  border: none;
+  font-family: var(--primary-font);
+  color: rgb(170, 167, 167);
+  border-bottom: 1px solid rgb(196, 196, 196);
 }
