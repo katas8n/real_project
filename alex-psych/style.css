@@ -297,3 +297,87 @@ top: 66px;
   letter-spacing: 0.085em;
   color: var(--main-color);
 }
+
+.practice-wrapper {
+  position: absolute;
+  width: 1240px;
+  height: 424px;
+  left: 228px;
+  top: 1279px;
+  background-color: aqua;
+}
+
+.practice-psychology__title {
+  position: absolute;
+  width: 767px;
+  height: 403px;
+  color: var(--secondary-light-font-color);
+  background-color: var(--secondary-light-font-color)
+}
+
+.practice-psychology__title h2 {
+  position: absolute;
+  width: 755px;
+  height: 43px;
+  left: 5px;
+  top: -5px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 43px;
+  color: var(--primary-dark-font-color);
+}
+
+.practice-wrapper__text {
+  position: absolute;
+  width: 567px;
+  height: 306px;
+  left: 0px;
+  top: 116px;
+}
+
+.practice-psychology__text {
+  position: absolute;
+  gap: 1rem;
+  width: 503px;
+  height: 306px;
+  left: 64px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 51px;
+  color: var(--primary-dark-font-color);
+}
+
+.practice-psychology__icons {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 43px;
+}
+
+.sertificate-icon {
+  width: 35px;
+}
+
+.time-icon {
+  width: 20px;
+}
+
+.people-icon {
+  width: 43px;
+}
+
+.gadjets-icon {
+  width: 43px;
+}
+
+.language-icon {
+  width: 43px;
+}
