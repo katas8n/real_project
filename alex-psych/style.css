@@ -304,7 +304,7 @@ top: 66px;
   height: 424px;
   left: 228px;
   top: 1279px;
-  background-color: aqua;
+  background-color: var(--secondary-light-font-color)
 }
 
 .practice-psychology__title {
@@ -380,4 +380,66 @@ top: 66px;
 
 .language-icon {
   width: 43px;
+}
+
+.diploma-wrapper {
+  position: absolute;
+width: 433px;
+height: 316.05px;
+left: 702px;
+top: 60px;
+background-color: var(--secondary-light-font-color)
+}
+
+.diploma-img {
+  position: absolute;
+width: 383.73px;
+height: 278px;
+left: 25px;
+top: 5px;
+}
+
+.diploma-bnt__left {
+  position: absolute;
+  top: 130px;
+  left: 444px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+height: 50px;
+background: rgb(196, 196, 196);
+border-radius: 100px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.diploma-bnt__right {
+  position: absolute;
+  top: 130px;
+  left: -61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+height: 50px;
+background: rgb(196, 196, 196);
+border-radius: 100px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.diploma-ellipse {
+width: 11px;
+height: 12.24px;
+border-radius: 100px;
+background: rgb(196, 196, 196);
+}
+
+.diploma-ul {
+  position: absolute;
+  top: 345px;
+  left: 115px;
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  gap: 8px;
 }
